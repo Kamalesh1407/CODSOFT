@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamaleshwaran - Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.hero.is-primary {
+    background-color: #446c6d;
+    color: #0b0b0b;
+    padding: 3rem 0;
+}
+
+.title, .subtitle {
+    color: skyblue;
+}
+
+#main-content {
+    background-color: #fdf9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.image.is-rounded img {
+    border-radius: 50%;
+}
+
+section {
+           
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills {
+            background-color: #ecf0f1;
+        }
+
+        .skill {
+            margin-bottom: 10px;
+        }
+
+        .skill-name {
+            display: inline-block;
+            width: 80px;
+        }
+
+        .skill-bar {
+            height: 20px;
+            border-radius: 5px;
+        }
+
+        .html {
+            width: 80%; 
+            background-color: #e74c3c; 
+        }
+
+        .css {
+            width: 60%; 
+            background-color: #3498db;
+        }
+
+        .js {
+            width: 40%; 
+            background-color: #2ecc71; 
+        }
+#projects .box {
+    background-color: #f8f2f2;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    padding: 1.5rem;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#projects .box:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#resume a {
+    background-color: #9696eb;
+    color: #f6070f;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#resume a:hover {
+    background-color: #fbfbfb;
+}
+
+footer {
+    background-color: #1bade2;
+    color: #141414;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    KAMALESHWARAN S
+                </h1>
+                <h2 class="subtitle">
+                    Web Developer
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <div id="main-content" class="container">
+
+        <section id="about" class="section">
+            <h2 class="title">About Me</h2>
+            <div class="content">
+                <figure class="image is-rounded">
+                     <img   align="left" src="profile.jpg" alt="Kamaleshwaran S" style="width:160px;height:160px;">
+                </figure><br><br><br><br><br><br><br>
+                <p>
+                    Hello, I'm Kamaleshwaran, a passionate web developer with experience in building modern and responsive websites. I love turning ideas into reality through code.
+                </p>
+                <p>
+                    I thrive on turning ideas into reality and enjoy the challenges of both
+                    frontend and backend development. Let's collaborate and build something
+                    amazing together!
+                </p>
+                
+            </div>
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skill">
+                    <span class="skill-name">HTML</span>
+                    <div class="skill-bar html"></div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">CSS</span>
+                    <div class="skill-bar css"></div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-bar js"></div>
+                    <div class="skill">
+                        <span class="skill-name">React JS</span>
+                        <div class="skill-bar js"></div>
+                </div>
+            </section>
+
+        <section id="projects" class="section">
+            <h2 class="title">Projects</h2>
+            <div class="columns">
+                <div class="column">
+                    <div class="box">
+                        <h3 class="title is-4">Chat Application</h3>
+                        
+            <p>
+                 Description: Build a real-time chat application that allows users to join different chat rooms and communicate with each other. Use technologies like Socket.io for real-time communication.           
+                </p>
+             </div>
+                </div>
+                <div class="column">
+                    <div class="box">
+                        <h3 class="title is-4"> Weather App</h3>
+                           <p>
+                            Develop a weather application that allows users to input a location and get the current weather conditions.
+                            Integrate with a weather API to fetch real-time data.
+                        </p>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div class="box">
+                        <h3 class="title is-4">Job Board</h3>
+                        
+            <p>
+                Develop a job board platform where employers can post job listings and users can search and apply for jobs.
+                Implement user authentication and notifications for new job postings.           
+                </p>
+                </div>
+                    </div>
+                <div class="column">
+                    <div class="box">
+                        <h3 class="title is-4">E-commerce Website</h3>
+                           <p>
+                            Create a simple e-commerce site with product listings, a shopping cart, and a checkout process.
+                            Focus on responsive design and user-friendly navigation.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="section">
+            <h2 class="title">Resume</h2>
+            <div class="box">
+                <p>Download my resume <a href="Kamaleshwaran S Resume.pdf" target="_blank" rel="noopener noreferrer">here</a>.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="title">Contact</h2>
+            <div class="content">
+                <p>Email: <a href="skamal140703@gmail.com">skamal140703@gmail.com</a></p>
+                <p>Phone: 7904910640</p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2023 Kamaleshwaran | <a href="https://www.linkedin.com/in/kamaleshwaran-s-081799282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a> | <a href="https://github.com/Kamalesh1407">GitHub</a>
+    </footer>
+
+</body>
+</html>
